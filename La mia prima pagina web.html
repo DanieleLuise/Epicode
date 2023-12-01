@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>La mia prima pagina web</title>
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+</head>
+<body>
+    <h1>La mia prima pagina web wow!</h1>
+    <h2>Mi chiamo Daniele e sono uno studente Epicode</h2>
+    <p>Adesso sto scrivendo per la mia primissima volta il testo di una pagina web è incredibile quanto tutto ciò mi affascina
+        e mi sprona ad andare avanti per apprendere cose nuove,<span style="color:red"> infatti credo che la curiosità abbinata alla tenacia di voler imparare 
+        siano i miei punti di forza.</span>
+     </p>
+     <h5> Anagrafica</h5>
+     <ul>
+     <li> Nome: Daniele</li>
+     <li> Cognome: Luise</li>
+     <li> Data di nascita: 26/08/03</li>
+     <li> Luogo di nascita: Napoli</li>
+     <li> Sesso: Maschio </li>
+     <li> Residenza: Marano di Napoli</li>
+     <li> Provincia: Napoli</li>
+
+     </ul>
+<h5> Ora parliamo un pò di me :</h5>
+<p>Sono un ragazzo con una gran voglia di fare e se voglio qualcosa non mi fermo finchè non ho raggiunto il mio obbiettivo,
+    credo che senza impegno e sacrifici non si potrà mai andare avanti nella vita.
+    Attualmente sono impiegato come scaffalista di un supermercato a marchio Decò, anche se questo è il mio principale ruolo
+    mi viene chiesto di ricoprirne molteplici, il totale delle mie ore settimanali sfonda la barriera delle 60 ore e la paga 
+    è misera esenza alcuna possibilità di crescita, ma sapevo bene vhe quella non sarebbe stata la mia strada così ho deciso di
+    iniziare a mettere da parte quanti più soldi possibile per poter permettermi un corso come questo è un pc, consapevole della
+    mia passione verso il mondo tech ho scoperto la programmazione ed è stato amore a prima vista subito ho capito che quella
+    era la strada da percorrere. Così dopo mesi di lavoro e sacrifici ho deciso di acquiatre un macbook
+    e provare ad entrare in una delle classi di epicode. 
+    Una volta superato con successo il colloquio, è partito il mio percorso con Epicode, adesso sono alle prime e realizzare questa pagina 
+    web per la prima volta mi fa sentire macchinoso e molto lento, ma è proprio quì il bello migliorarsi e arrivare 
+    alla fine di questo cammino per poi vedere da dove sono partito.
+    Sono determinato e sono pronto a mettermi in gioco.
+</p>
+<h5> Hobby:</h5>
+<p>Oltre al mondo del coding col quale mi sto interfacciando per la primissima volta ho vari interessi:</p>
+<ul> 
+<li>Sport: adoro fare sport in particolare amo giocare a calcio e mi piace andare in palestra, lo trovo 
+    come uno sfogo personale che fa bene a mente e corpo</li>
+<li>Scarpe: ho un forte interesse per le scarpe in particolare per le nike, un giorno mi piacerebbe poter 
+    avere la disponibilità economica per poter collezionare i pezzi che più mi interessano, ovviamente mi piace 
+    non solo il settore delle scarpe ma anche quello dell'abbigliamento in generale.</li>
+<li> Dispositivi elettronici: ovviamentente mi affascinano molto i vari tipi di pc,smartphone,e console da gaming.
+     P.S. Sono un Fan Apple </li>
+</ul>
+<h5>Contatti:</h5>
+ 
+<p>Numero cellulare: 3755126603 </p>
+<p>Email: luisedaniele03@gmail.com </p>
+<table>
+    <thead>
+        <tr>
+        <th>;)</th>
+        <th>1°anno</th>
+        <th>2°anno</th>
+        <th>3°anno</th>
+        <th>4°anno</th>
+        <th>5°anno</th>
+        <th>lavoro</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Esperienza generale</td>
+            <td>Principalmente il primo anno di superiori è stato conoscitivo e di ambientamento per me 
+                che arrivavo da un modello di scuola privata e un ambiente molto più tranquillo. </td>
+            <td>In quest'anno credo di aver iniziato il mio percorso di maturazione,poi per quanto
+                riguarda lo studio ho riscontrato le prime difficoltà in alcune materie che ho iniziato
+                ad odiare, una su tutte economia aziendale.
+            </td>
+            <td>Il terzo probabilmente è stato l'anno dove mi sono iniziato ad adattare molto meglio
+                nell'ambiente, poi è stato il primo anno dove abbiamo fatto l'alternanza scuola-lavoro,
+                anche se abbiamo fatto relativamente poco è stato un moodo per legare meglio con tutti
+                docenti e compagni di classe anche se dopo poco è arrivata la pandemia.
+            </td>
+            <td>Covid-19, il riassunto del quarto anno è stata la pandemia,che da un lato ha impedito
+                tantissime attività e soprattutto di vivere un'anno tra i banchi che comunque ha la sua 
+                grande importanza, dall'altro sicuramente ho approfondito la mia conoscenza base del computer
+                usando molto il pacchetto office e la mail, che molto banalmente da un uso poco frequente
+                è diventata vitale ogni giorno.
+            </td>
+            <td>Quinto ed ultimo anno di superiori il più bello scolasticamente parlando, poi concluso con l'esame di stato,
+                il mio percorso scolastico è sempre stato basato sulla regola del goditi il momento se c'è da divertirsi,
+                e studia le materie che ti piacciono.
+            </td>
+            <td>Terminata la scuola, ho da subito cercato un occupazione e sono stato assunto come 
+                scaffalista di un decò, con quest'esperienza ho capito cosa fosse realmente un'ambiente 
+                di lavoro, e ho arricchito la mia persona sotto tanti aspetti, mi sono fatto le ossa e ho lavorato
+                duro per raggiungere il mio obbiettivo che è quello di diventare un programmatore 
+                dopo mesi e mesi di scarfici ho potuto acquistare un computer e permettermi di partecipare
+                a questo corso, la mia esperienza lavorativa col mese di dicembre giunge al termine e non 
+                vedo l'ora di poter inziare il corso di epicode.
+            </td>
+        </tr>
+    </tbody>
+</table>
+
+
+
+
