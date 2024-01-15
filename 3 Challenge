@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital@1&family=Prata&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital@1&family=Prata&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,600&family=Prata&display=swap');
+        body {
+            margin: 0;
+        }
+           
+        .main-section {
+            padding: 20px;
+        }
+       img{
+        width: 100%;
+       }
+    .font-prata{
+     font-family: "Prata", serif;
+     font-weight: 400;
+     font-style: normal;
+     font-size: 64px;
+     margin-bottom: 0;
+    }
+    h1:hover{
+       color:brown ; 
+    }
+    .font-xsierra{
+    font-family: "Prata", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 24px;
+    margin-top: 0;
+    margin-bottom: 0;
+    }
+    .montserrat-font{
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    }
+    .link-class{
+    font-weight: 600;
+    font-style: italic;
+    }
+    .luoghi-style{
+        padding: 22px;
+        margin-bottom: 0px;
+        margin-top: 55px;
+        border-radius: 6px;
+        color: white;
+        background: brown;
+        background: rgb(208,114,23);
+        background: linear-gradient(93deg, rgba(208,114,23,1) 0%, rgba(62,121,9,0.8465753424657534) 35%);
+    }
+     .ul-class{
+        padding-top: 6px;
+        padding-bottom: 6px;
+        padding-left: 22px;
+        margin-bottom: 1px;
+        color: #dfdfdf;
+        background: linear-gradient(270deg, rgba(208,130,23,1) 0%, rgba(121,72,9,1) 35%);
+        }
+        .block-class{
+            display: block;
+        }
+        p{
+        color: white;
+        background: linear-gradient(93deg, rgba(0,0,0,1) 0%, rgba(0,0,0,0.8465753424657534) 35%);
+        padding: 16px;
+        }
+        </style>
+    
+ </head>
+ <body class="montserrat-font">
+    <img src="https://a.travel-assets.com/findyours-php/viewfinder/images/res70/241000/241460-Yosemite-National-Park.jpg">
+    <div class="main-section">
+        <div class="image-container">
+        </div>
+    <p> 
+    Author 
+    <a class="link-class" href="https://it.wikipedia.org/wiki/Parco_nazionale_di_Yosemite">Wikipedia community </a>
+    <h6 class="luoghi-style">Luoghi correlati</h6>
+    </p>
+    <h4>La storia del Parco nazionale Yosemite </h4>
+    <h1 class="font-prata">Yosemite</h1>
+    <h3 class="font-xsierra"> Sierra Nevada USA</h3>
+    <h4>Il parco nazionale di Yosemite è una zona protetta degli Stati Uniti che copre parte dei monti della Sierra Nevada, 
+        nella parte orientale della California. Con una superficie totale di 3 074 km², si tratta del terzo parco nazionale 
+        più grande della California dopo quelli della Valle della Morte e di Joshua Tree </h4>
+        <p>
+            Yosemite ospita uno dei macro-habitat maggiori e meno frammentati della Sierra Nevada, sia con riferimento alle piante 
+            sia agli animali. Il parco ha un intervallo di elevazione compreso tra 648 e 3 997 m e contiene cinque principali fasce di vegetazione:
+            il chaparral e i boschi di quercia, la foresta montana inferiore, la foresta montana, la zona subalpina e la tundra alpina.
+            Delle 7 000 specie vegetali della California, circa il 50% si trova nella Sierra Nevada e oltre il 20% si trova nello Yosemite.
+            Il parco contiene un habitat adatto per più di 160 piante rare, con rare formazioni locali geologiche e suoli con composizioni mineralogiche uniche.[3]
+        </p>
+        <p>
+            Il parco nazionale di Yosemite si trova nel mezzo della Sierra Nevada, la catena montuosa più alta della California. A livello amministrativo,
+            rientra sia nella contea di Mariposa sia in quella di Tuolumne e, per raggiungerlo dai centri urbani principali dello Stato,
+            ci vogliono circa tre ore e 30 minuti in auto per arrivare da San Francisco e sei ore da Los Angeles. La zona protetta è circondata inoltre da diverse riserve naturali:
+            quella di Ansel Adams a sud-est, quella di Hoover a nord-est e quella di Emigrant a nord.
+        </p>
+        <h1>Clima</h1>
+        <p>
+            Il luogo sperimenta un clima di montagna ed è influenzato dalle masse d'aria provenienti dall'oceano Pacifico, 
+            essendo situato in linea d'aria 200 km dalle coste. Volendo indicare la temperatura minima e massima di tre distinti punti 
+            localizzati nel parco i dati risultano i seguenti:
+        </p>
+        <ul class="ul-class">
+         <li>
+        Tuolumne Meadows (2 627 m s.l.m.): tra 3,9 e 11,5 °C 
+         </li>   
+         <li>
+            Valle di Yosemite (1 220 m s.l.m.): tra -3 e 32 °C
+         </li>
+         <li>
+            Ingresso Wanona (1 887 m s.l.m.): tra 2,2 e 19,4 °C
+         </li>
+        </ul>
+        <form onsubmit="alert('il tuo messaggio è stato inviato')">
+         <input class="block-class" email placeholder="mail" />
+         <textarea cols="30" rows="10" placeholder="cosa ne pensi del nostro articolo" ></textarea>
+         <button class="block-class" type="submit">Contattaci </button> 
+        </form>
+    </div>
+    <a href="http://127.0.0.1:5500/D2/d3/index.html"> 
+</body>
+</html>
